@@ -62,3 +62,15 @@ console.log(`El perimetro del circulo (su circunferencia) vale: ${PCir(diametroC
 console.log(`El área del circulo vale: ${ACir(radioCirculo)}`);
 
 console.groupEnd("Circulo");
+
+function calcularPerimetroCuadrado(){
+    const lado = document.getElementById("ladoCuadrado").value;
+    
+    alert("El perimetro del cuadrado es: "+ PC(lado));
+}
+
+function calcularAreaCuadrado() {
+    const lado = document.getElementById("ladoCuadrado").value;
+    
+    alert("El área del cuadrado es: "+ AC(lado)); 
+}
